@@ -1,0 +1,2 @@
+digit1, digit2 = input().split()
+print(int(digit1)/int(digit2))
