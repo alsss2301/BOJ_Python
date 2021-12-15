@@ -1,0 +1,13 @@
+digit1 = int(input())
+digit2 = int(input())
+    
+num1 = digit2//100
+num2 = (digit2-num1*100)//10
+num3 = digit2-(num1*100 + num2*10)
+    
+print(digit1*num3)
+print(digit1*num2)
+print(digit1*num1)
+print((digit1*num3) + (digit1*num2*10) + (digit1*num1*100))
+
+    
