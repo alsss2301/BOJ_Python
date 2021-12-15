@@ -1,0 +1,4 @@
+digit1 = int(input())
+digit2 = int(input())
+
+print(digit1+digit2)
